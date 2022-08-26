@@ -1,0 +1,125 @@
+.u-section-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("images/letter-block-in-word-admin-on-wood-background-2CB9P6J.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 801px;
+}
+
+.u-section-1 .u-shape-1 {
+  height: 453px;
+  width: 100px;
+  margin: 178px 95px 0 auto;
+}
+
+.u-section-1 .u-shape-2 {
+  height: 453px;
+  width: 100px;
+  margin: -453px auto 0 95px;
+}
+
+.u-section-1 .u-group-1 {
+  min-height: 454px;
+  width: 750px;
+  margin: -453px auto 60px;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 0 60px;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: linear-gradient(to right, #478ac9, #2cccc4);
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.9375rem;
+  letter-spacing: 1px;
+  box-shadow: 0px 2px 6px 0 rgba(0,0,0,0.25);
+  margin: 0 auto;
+  padding: 8px 12px 8px 11px;
+}
+
+.u-section-1 .u-icon-1 {
+  color: rgb(255, 255, 255) !important;
+  font-size: 1.2em;
+}
+
+.u-section-1 .u-btn-2 {
+  border-style: none;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  margin: 289px auto 0 49px;
+  padding: 8px 27px 8px 26px;
+}
+
+.u-section-1 .u-icon-2 {
+  color: rgb(17, 17, 17) !important;
+}
+
+.u-section-1 .u-btn-3 {
+  border-style: none;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  margin: -40px 49px 0 auto;
+  padding: 8px 27px 8px 26px;
+}
+
+.u-section-1 .u-icon-3 {
+  color: rgb(17, 17, 17) !important;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 660px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 506px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: 720px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 380px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: 540px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-btn-3 {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 239px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: 340px;
+  }
+}
