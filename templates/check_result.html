@@ -1,0 +1,79 @@
+{% load static %}
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Find Your Lab-Results">
+    <meta name="description" content="">
+    <meta name="page_type" content="np-template-header-footer-from-plugin">
+    <title>Lab Results</title>
+    <link rel="stylesheet" href="{% static 'nicepage_3.css' %}" media="screen">
+<link rel="stylesheet" href="{% static 'check_result.css' %}" media="screen">
+    <script class="u-script" type="text/javascript" src="{% static 'jquery_.js' %}" defer=""></script>
+    <script class="u-script" type="text/javascript" src="{% static 'nicepage_.js' %}" defer=""></script>
+    <meta name="generator" content="Nicepage 3.19.1, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i|Lobster:400">
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "forms"
+}</script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="check_result">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+  </head>
+  <body class="u-body">
+    <section class="u-align-left u-clearfix u-palette-1-base u-section-1" src="" id="sec-3cf6">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h2 class="u-custom-font u-font-merriweather u-text u-text-1">Find Your Lab-Results</h2><span class="u-icon u-icon-circle u-text-palette-2-base u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 59 59" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-a845"></use></svg><svg class="u-svg-content" viewBox="0 0 59 59" x="0px" y="0px" id="svg-a845" style="enable-background:new 0 0 59 59;"><polygon style="fill:#EDEADA;" points="49,20 34,5 11,5 11,55 49,55 "></polygon><circle style="fill:#FFFFFF;stroke:#7383BF;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;" cx="31.453" cy="37.453" r="10.828"></circle><line style="fill:none;stroke:#7383BF;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;" x1="39.244" y1="45.244" x2="52" y2="58"></line><path style="fill:#CEC9AE;" d="M31.625,35h-6c-0.553,0-1-0.447-1-1s0.447-1,1-1h6c0.553,0,1,0.447,1,1S32.178,35,31.625,35z"></path><path style="fill:#CEC9AE;" d="M37.625,41h-12c-0.553,0-1-0.447-1-1s0.447-1,1-1h12c0.553,0,1,0.447,1,1S38.178,41,37.625,41z"></path><polygon style="fill:#E2DBBF;" points="11,5 34,5 44,15 44,0 6,0 6,50 11,50 "></polygon><path style="fill:#CEC9AE;" d="M48.712,20H34V5.288c0-0.106,0.129-0.16,0.204-0.084l14.592,14.592  C48.871,19.871,48.818,20,48.712,20z"></path></svg></span>
+        <div class="u-shape u-shape-svg u-text-palette-3-base u-shape-1">
+          <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 160" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-cd60"></use></svg>
+          <svg class="u-svg-content" viewBox="0 0 160 160" x="0px" y="0px" id="svg-cd60"><path d="M130,160H30c-16.5,0-30-13.5-30-30V30C0,13.5,13.5,0,30,0h100c16.5,0,30,13.5,30,30v100C160,146.5,146.5,160,130,160z"></path></svg>
+        </div>
+        <div class="u-shape u-shape-svg u-text-palette-2-base u-shape-2">
+          <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 160" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-547d"></use></svg>
+          <svg class="u-svg-content" viewBox="0 0 160 160" x="0px" y="0px" id="svg-547d"><path d="M130,160H30c-16.5,0-30-13.5-30-30V30C0,13.5,13.5,0,30,0h100c16.5,0,30,13.5,30,30v100C160,146.5,146.5,160,130,160z"></path></svg>
+        </div>
+        <div class="u-form u-form-1">
+          <form action="" method="POST" class="u-clearfix u-form-spacing-20 u-form-vertical u-inner-form" style="padding: 10px" source="custom" name="form">
+            {% csrf_token %}
+              <div class="u-form-group u-form-name">
+              <label for="name-3b9a" class="u-form-control-hidden u-label">Name</label>
+              <input type="text" placeholder="Enter your Name" id="name-3b9a" name="name" class="u-border-2 u-border-black u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle u-input-1" required="required">
+            </div>
+            <div class="u-form-group">
+              <label for="email-3b9a" class="u-form-control-hidden u-label">Email</label>
+              <input type="text" placeholder="Enter your UID" id="email-3b9a" name="uid" class="u-border-2 u-border-black u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle u-input-2" required="required">
+            </div>
+            <div class="u-form-group u-form-group-3">
+              <label for="text-251b" class="u-form-control-hidden u-label"></label>
+              <input type="text" placeholder="Enter your AGE" id="text-251b" name="age" class="u-border-2 u-border-black u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle u-input-3" required="required">
+            </div>
+            <div class="u-align-center u-form-group u-form-submit">
+              <input type="submit" id="s1" value="submit" class="u-border-2 u-border-black u-btn u-btn-rectangle u-btn-submit u-button-style u-none u-btn-1">
+            </div>
+              <div class="u-form-send-error u-form-send-message"> Unable to send your message. Please fix errors then try again. </div>
+          </form>
+        </div>
+        <h3 class="u-custom-font u-font-lobster u-text u-text-body-color u-text-2">Enter Your Details</h3><span class="u-icon u-icon-circle u-palette-3-base u-spacing-8 u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 58 58" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-bad4"></use></svg><svg class="u-svg-content" viewBox="0 0 58 58" x="0px" y="0px" id="svg-bad4" style="enable-background:new 0 0 58 58;"><polygon style="fill:#EDEADA;" points="51.5,14 37.5,0 6.5,0 6.5,58 51.5,58 "></polygon><g><path style="fill:#CEC9AE;" d="M16.5,23h25c0.552,0,1-0.447,1-1s-0.448-1-1-1h-25c-0.552,0-1,0.447-1,1S15.948,23,16.5,23z"></path><path style="fill:#CEC9AE;" d="M16.5,15h10c0.552,0,1-0.447,1-1s-0.448-1-1-1h-10c-0.552,0-1,0.447-1,1S15.948,15,16.5,15z"></path><path style="fill:#CEC9AE;" d="M41.5,29h-25c-0.552,0-1,0.447-1,1s0.448,1,1,1h25c0.552,0,1-0.447,1-1S42.052,29,41.5,29z"></path><path style="fill:#CEC9AE;" d="M41.5,37h-25c-0.552,0-1,0.447-1,1s0.448,1,1,1h25c0.552,0,1-0.447,1-1S42.052,37,41.5,37z"></path><path style="fill:#CEC9AE;" d="M41.5,45h-25c-0.552,0-1,0.447-1,1s0.448,1,1,1h25c0.552,0,1-0.447,1-1S42.052,45,41.5,45z"></path>
+</g><polygon style="fill:#CEC9AE;" points="37.5,0 37.5,14 51.5,14 "></polygon></svg></span>
+      </div>
+    </section>
+    <span style="height: 64px; width: 64px; margin-left: 0px; margin-right: auto; margin-top: 0px; background-image: none; right: 20px; bottom: 20px" class="u-back-to-top u-icon u-icon-circle u-opacity u-opacity-85 u-palette-1-base u-spacing-15" data-href="#">
+        <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 551.13 551.13"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-1d98"></use></svg>
+        <svg class="u-svg-content" enable-background="new 0 0 551.13 551.13" viewBox="0 0 551.13 551.13" xmlns="http://www.w3.org/2000/svg" id="svg-1d98"><path d="m275.565 189.451 223.897 223.897h51.668l-275.565-275.565-275.565 275.565h51.668z"></path></svg>
+    </span>
+
+          {% if flag %}
+              <script>
+                  const x = "{{ flag_content }}";
+                  alert(x)
+              </script>
+          {% endif %}
+  </body>
+</html>

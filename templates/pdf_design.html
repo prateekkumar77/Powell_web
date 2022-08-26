@@ -1,0 +1,139 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Test Results</title>
+    <style type="text/css">
+        body {
+                font-weight: 200;
+                font-size: 14px;
+                background-color: #478ac9;
+            }
+        .test_method{
+            border: none;
+                height: 1px;
+                /* Set the hr color */
+                color: #333; /* old IE */
+                background-color: #fff; /* Modern Browsers */
+        }
+        .title span {
+                color: #007cae;
+            }
+        .title {
+                font-size: 22px;
+                font-family: "Copperplate Gothic Bold", fantasy;
+                font-weight: 100;
+                text-align: center;
+                padding: 10px 20px 0px 20px;
+            }
+        .note {
+                font-size: 10px;
+                font-family: Papyrus, fantasy;
+                font-weight: 100;
+                text-align: right;
+                padding: 10px 20px 0px 20px;
+            }
+        .details {
+                text-align: left !important;
+                background-color: lightgrey;
+            }
+        table {
+                font-family: arial, sans-serif;
+                border-collapse: collapse;
+                width: 100%;
+}
+
+        td, th {
+                border: 1px solid #dddddd;
+                text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+                            background-color: #dddddd;
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+            <div class='header'>
+                <h1 class='title'>Lab Test Results</h1>
+            </div>
+    <div class='details'>
+            Patient Name:   {{ dat.name }}
+        <hr class='hrItem' />
+            UID:    {{ dat.uid }}
+        <hr class='hrItem' />
+            Age:   {{ dat.age }}
+        <hr class='hrItem' />
+            Gender:   {{ dat.gender }}
+        <hr class='hrItem' />
+            Date:   {{ dat.date }}
+            <hr class='hrItem' />
+        </div>
+    <br>
+
+    <table style="width:100%">
+  <tr>
+    <th>Test Name</th>
+    <th>Result</th>
+    <th>Units</th>
+      <th>Reference Range</th>
+  </tr>
+  <tr>
+    <td>GLUCOSE</td>
+    <td>{{ dat.glucose }}</td>
+    <td>mg/dl</td>
+      <td>65 - 125</td>
+  </tr>
+  <tr>
+    <td>SODIUM</td>
+    <td>{{ dat.sodium }}</td>
+    <td>mmol/L</td>
+      <td>136 - 144</td>
+  </tr>
+  <tr>
+    <td>POTASSIUM</td>
+    <td>{{ dat.potassium }}</td>
+    <td>mmol/L</td>
+      <td>3.6 - 5.1</td>
+  </tr>
+        <tr>
+    <td>CARBON DIOXIDE</td>
+    <td>{{ dat.co2 }}</td>
+    <td>mmol/L</td>
+      <td>21 - 31</td>
+  </tr>
+        <tr>
+    <td>CHOLESTEROL</td>
+    <td>{{ dat.cholesterol }}</td>
+    <td>mg/dl</td>
+      <td>120 - 199</td>
+  </tr>
+        <tr>
+    <td>CALCIUM</td>
+    <td>{{ dat.calcium }}</td>
+    <td>mg/dl</td>
+      <td>8.8 - 10.3</td>
+  </tr>
+        <tr>
+    <td>PHOSPHATE</td>
+    <td>{{ dat.phosphate }}</td>
+    <td>mg/dl</td>
+      <td>2.3 - 4.5</td>
+  </tr>
+        <tr>
+    <td>IRON</td>
+    <td>{{ dat.iron }}</td>
+    <td>mg/dl</td>
+      <td>50 - 170</td>
+  </tr>
+</table>
+</div>
+
+<p class="note">
+    powered by Powell Laboratories
+</p>
+
+</body>
+</html>

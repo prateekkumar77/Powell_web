@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LOGIN</title>
+    <style>
+        .container{
+        }
+        .center{
+            top: 30%;
+            left: 35%;
+            position: fixed;
+            text-align: center;
+            width: 30%;
+            border-style: solid;
+            background-color: #5897fb;
+        }
+        div.item{
+            padding-top: 10px;
+            margin-left: 22%;
+            width: fit-content;
+            border-bottom: 2px darkslategrey solid;
+        }
+        div.item:hover{
+            background-color: #006b1b;
+        }
+        .title{
+            font-family: 'Roboto Slab', serif;
+            font: bold;
+            font-size: xx-large;
+        }
+    </style>
+</head>
+<body>
+<script>
+    function validate() {
+        let x = document.forms['form1']['name']
+        let y = document.forms['form1']['password']
+        if (x != "" && y != "")
+        {
+            alert("Validation Success")
+        }
+    }
+</script>
+<div class="container">
+<div class="main center">
+    <h1 class="title">TE LUND HAI</h1>
+    <div>
+        <form name="form1" action="#" onsubmit="return validate()">
+            <div class="item">
+            <input type="email", name="email", id="email" placeholder="Enter E-Mail", required="required" style="font-size: 20px">
+                </div>
+            <div style="padding: 10px"></div>
+            <div class="item">
+                <input type="password", name="password", id="password" placeholder="Enter Password", required="required" style="font-size: 20px">
+            </div>
+
+            <div style="padding: 20px"></div>
+            <button type="submit"  style="padding: 10px" value="submit">Login</button>
+            <div style="padding: 20px"></div>
+        </form>
+    </div>
+
+</div>
+    </div>
+</body>
+</html>
